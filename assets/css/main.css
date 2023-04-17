@@ -17,14 +17,13 @@
 }
 
 
-.category-list {
-    position: relative;
-}
+
 .category-item {
     padding: 20px;
     color: #FFFFFF;
 
     border-bottom: 1px solid #5C5C5C;
+ 
 }
 
 .category-item.highlight {
@@ -40,7 +39,8 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
- 
+    
+
 }
 
 .category-item__link.color{
@@ -49,7 +49,6 @@
 
 /*  */
 .body {
-    /* position: absolute; */
     width: 1768px;
     height: 935px;
     background: #FFFFFF;
@@ -99,15 +98,11 @@
 
 
 .columm-item.content p {
-    word-wrap: break-word;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
 
     color: #000000;
 }
